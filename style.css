@@ -1,0 +1,132 @@
+/* Colors and fonts */
+body {
+    background-image: url(images/ciel.png);
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-size: 800px;
+    color: #354259;
+    font-family: Times New roman; 
+    font-size: 22px;
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+h1 { 
+   color: #354259 ;
+   font-family: 'Rubik Maze', sans-serif;
+   font-size: 32px;
+   text-transform: uppercase;
+}
+
+h2 {
+   color: #F1B4BB;
+   font-family: 'UnifrakturCook', cursive;
+   font-size: 37px;
+   font-weight: bold;
+}
+
+
+
+h3 { 
+   color: grey;
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 24px ;
+   font-weight: lighter;
+   background-color: white;
+}
+
+a { 
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover { 
+ color: #F6DFEB ;
+
+}
+
+/* Custom design with class (99% of my design) */
+.container { 
+    width: 700px;"
+    margin: 40px auto;
+
+}
+
+@media (max-width: 760px)  {
+  .container  { 
+    background-color: lightgrey ;
+    width: 600px;
+  }
+    
+
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+
+    }
+
+}
+
+.card-white { 
+   background-color: white;
+   padding: 40px;
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+
+}
+
+.img-circle {
+   border-radius: 50%;
+ }
+
+
+}
+
+.btn-pink {
+   background-color: #F6DFEB;
+   color: #354259 ;
+   padding: 15px 20px;
+   border-radius: 4px;
+}
+
+.btn-pink:hover {
+   background-color: #F1B4BB;
+   color: white;
+}
+
+.list-inline {
+   list-style: none;
+   padding-left: 0px;
+}
+.list-inline li {
+   display: inline;
+   padding: 10px;
+} 
+
+.list-inline i {
+   font-size: 50px;
+   color: rgb(220, 220, 220);
+}
+
+.list-inline i:hover {
+   color: black;
+}
+
+/* Deisgn adjustments(1% design remaining) */
+#introduction p {
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
